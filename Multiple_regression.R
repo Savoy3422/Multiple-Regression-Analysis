@@ -6,7 +6,7 @@ library(olsrr) # for diagnoising collinearity function
 #################
 ### Load data ###
 #################
-basedir = "/Volumes/qac/prj/webb/20180507-correlation-analyses/analysis/"
+basedir = "/.../20180507-correlation-analyses/analysis/"
 sledai = read.csv(paste0(basedir, "SLEDAI_combined.csv"), header=TRUE, sep=",")
 sledai_N = sledai[21:39,] # obtain neutrophils group
 sledai_p = sledai[1:20,] # obtain pDCs group
